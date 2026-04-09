@@ -25,6 +25,16 @@
             nimlsp
             nimble
             nimlangserver
+
+            # Raylib dependencies
+            libGL
+            libx11
+            libx11.dev
+            libxcursor
+            libxrandr
+            libxinerama
+            libxi
+            alsa-lib
           ];
 
           shellHook = ''
